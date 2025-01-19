@@ -4,7 +4,8 @@
   "description": "sever.js",
   "main": "sever.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sever.js"
   },
   "author": "HungB2105544",
   "license": "ISC",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
+    "nodemon": "^3.1.9",
     "prettier": "^3.4.2"
   }
 }
